@@ -1,0 +1,8 @@
+name: 'fpm-action'
+description: 'Build packages with github.com/jordansissel/fpm (with N&S defaults)'
+branding:
+  icon: 'package'
+  color: 'green'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
