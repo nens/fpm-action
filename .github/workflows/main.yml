@@ -1,10 +1,10 @@
 name: test
 
-# Run on pull requests and on the master branch itself.
+# Run on pull requests and on the main branch itself.
 on:
   push:
     branches:
-      - master
+      - main
   pull_request:
 
 
