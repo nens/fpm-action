@@ -16,6 +16,3 @@ RUN echo "===> Installing tools..."  && \
 
 COPY entrypoint.sh /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
-
-# We mount the current directory as /data.
-WORKDIR	/data
